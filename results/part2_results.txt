@@ -1,0 +1,382 @@
+=== Завдання 1. Треки для вечірки ===
+[
+  {
+    track_name: 'Hold On - Remix',
+    duration_ms: 188133,
+    audio_features: {
+      danceability: 0.755,
+      energy: 0.78
+    },
+    artists: [
+      'Chord Overstreet',
+      'Deepend'
+    ]
+  },
+  {
+    track_name: 'Kaleidoscope',
+    duration_ms: 229320,
+    audio_features: {
+      danceability: 0.709,
+      energy: 0.913
+    },
+    artists: [
+      'A Great Big World'
+    ]
+  },
+  {
+    track_name: 'アジアの純真',
+    duration_ms: 233280,
+    audio_features: {
+      danceability: 0.732,
+      energy: 0.83
+    },
+    artists: [
+      'Yosui Inoue',
+      'Tamio Okuda'
+    ]
+  }
+]
+
+=== Завдання 2. Виконавці, у яких усі треки популярні ===
+[
+  {
+    tracks_cnt: 3,
+    min_popularity: 89,
+    artist_name: 'Harry Styles',
+    avg_popularity: 92
+  },
+  {
+    tracks_cnt: 4,
+    min_popularity: 90,
+    artist_name: 'Luar La L',
+    avg_popularity: 90.5
+  },
+  {
+    tracks_cnt: 5,
+    min_popularity: 86,
+    artist_name: 'Olivia Rodrigo',
+    avg_popularity: 87.4
+  },
+  {
+    tracks_cnt: 4,
+    min_popularity: 87,
+    artist_name: 'BYOR',
+    avg_popularity: 87
+  },
+  {
+    tracks_cnt: 3,
+    min_popularity: 79,
+    artist_name: 'IVE',
+    avg_popularity: 84
+  },
+  {
+    tracks_cnt: 12,
+    min_popularity: 76,
+    artist_name: 'Måneskin',
+    avg_popularity: 83.7
+  },
+  {
+    tracks_cnt: 11,
+    min_popularity: 77,
+    artist_name: 'Lil Nas X',
+    avg_popularity: 83.5
+  },
+  {
+    tracks_cnt: 3,
+    min_popularity: 81,
+    artist_name: 'Morgan Wallen',
+    avg_popularity: 83.3
+  },
+  {
+    tracks_cnt: 5,
+    min_popularity: 80,
+    artist_name: 'One Direction',
+    avg_popularity: 83
+  },
+  {
+    tracks_cnt: 5,
+    min_popularity: 80,
+    artist_name: 'TV Girl',
+    avg_popularity: 82
+  },
+  {
+    tracks_cnt: 4,
+    min_popularity: 81,
+    artist_name: 'Mac DeMarco',
+    avg_popularity: 81.5
+  },
+  {
+    tracks_cnt: 3,
+    min_popularity: 81,
+    artist_name: 'Cults',
+    avg_popularity: 81.3
+  },
+  {
+    tracks_cnt: 4,
+    min_popularity: 79,
+    artist_name: 'Ricky Montgomery',
+    avg_popularity: 80.5
+  },
+  {
+    tracks_cnt: 3,
+    min_popularity: 79,
+    artist_name: 'Luke Combs',
+    avg_popularity: 80.3
+  },
+  {
+    tracks_cnt: 3,
+    min_popularity: 80,
+    artist_name: 'Declan McKenna',
+    avg_popularity: 80
+  },
+  {
+    tracks_cnt: 3,
+    min_popularity: 80,
+    artist_name: 'Joy Again',
+    avg_popularity: 80
+  },
+  {
+    tracks_cnt: 7,
+    min_popularity: 69,
+    artist_name: 'Mora',
+    avg_popularity: 79.7
+  },
+  {
+    tracks_cnt: 3,
+    min_popularity: 70,
+    artist_name: 'Maroon 5',
+    avg_popularity: 79.7
+  },
+  {
+    tracks_cnt: 7,
+    min_popularity: 73,
+    artist_name: 'Beach Bunny',
+    avg_popularity: 79.4
+  },
+  {
+    tracks_cnt: 3,
+    min_popularity: 75,
+    artist_name: 'HVME',
+    avg_popularity: 79
+  }
+]
+
+=== Завдання 3. Нетипові треки ===
+[
+  {
+    avg_tempo: 117,
+    genre: 'pop-film',
+    outlier_threshold: 173.9,
+    outlier_tracks: [
+      {
+        id: ObjectId('6a1b4eec492958e31c302c5e'),
+        track_name: 'Mann Mera',
+        artists: [
+          'Gajendra Verma'
+        ],
+        popularity: 74,
+        tempo: 191.827
+      },
+      {
+        id: ObjectId('6a1b4eec492958e31c302c8a'),
+        track_name: 'Mere Liye Tum Kaafi Ho (From "Shubh Mangal Zyada Saavdhan")',
+        artists: [
+          'Ayushmann Khurrana',
+          'Tanishk-Vayu'
+        ],
+        popularity: 72,
+        tempo: 177.867
+      },
+      {
+        id: ObjectId('6a1b4eec492958e31c302c8d'),
+        track_name: 'Mallipoo',
+        artists: [
+          'A.R. Rahman',
+          'Madhushree'
+        ],
+        popularity: 79,
+        tempo: 175.589
+      }
+    ]
+  },
+  {
+    avg_tempo: 128,
+    genre: 'metal',
+    outlier_threshold: 187.9,
+    outlier_tracks: [
+      {
+        id: ObjectId('6a1b4eeb492958e31c300978'),
+        track_name: 'Bring Me To Life',
+        artists: [
+          'Evanescence'
+        ],
+        popularity: 0,
+        tempo: 189.985
+      },
+      {
+        id: ObjectId('6a1b4eeb492958e31c30097d'),
+        track_name: 'Bring Me To Life',
+        artists: [
+          'Evanescence'
+        ],
+        popularity: 2,
+        tempo: 189.985
+      },
+      {
+        id: ObjectId('6a1b4eeb492958e31c300980'),
+        track_name: 'Bring Me To Life',
+        artists: [
+          'Evanescence'
+        ],
+        popularity: 0,
+        tempo: 189.985
+      }
+    ]
+  },
+  {
+    avg_tempo: 121,
+    genre: 'deep-house',
+    outlier_threshold: 144.7,
+    outlier_tracks: [
+      {
+        id: ObjectId('6a1b4ee4492958e31c2f4dbc'),
+        track_name: 'Always',
+        artists: [
+          'The Him'
+        ],
+        popularity: 61,
+        tempo: 173.846
+      },
+      {
+        id: ObjectId('6a1b4ee4492958e31c2f4dbe'),
+        track_name: 'Seve - Slow Version',
+        artists: [
+          'Tez Cadey'
+        ],
+        popularity: 53,
+        tempo: 152.634
+      },
+      {
+        id: ObjectId('6a1b4ee5492958e31c2f4e34'),
+        track_name: 'Stay Yours',
+        artists: [
+          'Deep Chills',
+          'Tilsen'
+        ],
+        popularity: 55,
+        tempo: 200.116
+      }
+    ]
+  },
+  {
+    avg_tempo: 134,
+    genre: 'dubstep',
+    outlier_threshold: 189.7,
+    outlier_tracks: [
+      {
+        id: ObjectId('6a1b4ee5492958e31c2f6532'),
+        track_name: 'Shelter',
+        artists: [
+          'Porter Robinson',
+          'Madeon'
+        ],
+        popularity: 66,
+        tempo: 199.526
+      },
+      {
+        id: ObjectId('6a1b4ee5492958e31c2f6595'),
+        track_name: 'Millennia',
+        artists: [
+          'Pixel Terror'
+        ],
+        popularity: 53,
+        tempo: 200.05
+      },
+      {
+        id: ObjectId('6a1b4ee5492958e31c2f6659'),
+        track_name: 'Crumble',
+        artists: [
+          'Fairlane',
+          'TRØVES'
+        ],
+        popularity: 38,
+        tempo: 199.913
+      }
+    ]
+  },
+  {
+    avg_tempo: 129,
+    genre: 'grunge',
+    outlier_threshold: 190.4,
+    outlier_tracks: [
+      {
+        id: ObjectId('6a1b4ee7492958e31c2f9fd5'),
+        track_name: 'Heart-Shaped Box',
+        artists: [
+          'Nirvana'
+        ],
+        popularity: 79,
+        tempo: 203.006
+      },
+      {
+        id: ObjectId('6a1b4ee7492958e31c2fa011'),
+        track_name: 'Natural Born Killer',
+        artists: [
+          'Highly Suspect'
+        ],
+        popularity: 5,
+        tempo: 194.876
+      },
+      {
+        id: ObjectId('6a1b4ee7492958e31c2fa036'),
+        track_name: 'With You',
+        artists: [
+          'Linkin Park'
+        ],
+        popularity: 64,
+        tempo: 196.921
+      }
+    ]
+  }
+]
+
+=== Завдання 4. Треки для фонової роботи ===
+[
+  {
+    track_name: 'And I Love Her',
+    explicit: false,
+    audio_features: {
+      loudness: -15.317,
+      speechiness: 0.0331,
+      instrumentalness: 0.833
+    },
+    artists: [
+      'Kurt Cobain'
+    ]
+  },
+  {
+    track_name: 'Chi Mai',
+    explicit: false,
+    audio_features: {
+      loudness: -14.007,
+      speechiness: 0.059,
+      instrumentalness: 0.961
+    },
+    artists: [
+      'Joseph Sullinger'
+    ]
+  },
+  {
+    track_name: 'Mujer con Abanico',
+    explicit: false,
+    audio_features: {
+      loudness: -12.049,
+      speechiness: 0.061,
+      instrumentalness: 0.905
+    },
+    artists: [
+      'Agustín Amigó',
+      'Nylonwings'
+    ]
+  }
+]
