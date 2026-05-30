@@ -1,0 +1,28 @@
+Index not found, skipping drop...
+=== Завдання 1. BEFORE index ===
+Stage: FETCH
+Docs examined: 354
+Docs returned: 
+
+=== Завдання 1. AFTER index ===
+Stage: FETCH
+Docs examined: 354
+Docs returned: 
+
+=== Завдання 2. BEFORE index ===
+Stage: COLLSCAN
+Docs examined: 113999
+Docs returned: 
+
+=== Завдання 2. AFTER index ===
+Stage: FETCH
+Docs examined: 18199
+Docs returned: 
+
+=== Завдання 3. WITHOUT projection (not covered) ===
+Stage: FETCH
+Docs examined: 317
+
+=== Завдання 3. WITH projection (covered) ===
+Stage: PROJECTION_COVERED
+Docs examined: 0
