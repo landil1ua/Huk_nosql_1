@@ -13,11 +13,10 @@ function dropIndexSafe(collection, index) {
 
 // Спочатку видаляємо індекс якщо він вже існує
 // щоб кожен запуск скрипту був ідемпотентним
-dropIndexSafe
 dropIndexSafe(db.tracks, {
   track_genre: 1,
+  popularity: -1,
   "audio_features.danceability": 1,
-  popularity: -1
 });
 
 

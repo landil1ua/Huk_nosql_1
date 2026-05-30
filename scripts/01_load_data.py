@@ -19,7 +19,7 @@ db = client[DB_NAME]
 db["tracks_raw"].drop()
 
 df = pd.read_csv(CSV_PATH)
-print(f"Завантажуємо{len(df)} треків...")
+print(f"Завантажуємо {len(df)} треків...")
 
 # Приводимо типи
 df["explicit"] = df["explicit"].astype(bool)
