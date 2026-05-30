@@ -1,12 +1,12 @@
 === Завдання 1. BEFORE index ===
 Stage: SORT
 Docs examined: 113999
-Docs returned: 
+Docs returned: 354
 
 === Завдання 1. AFTER index ===
 Stage: FETCH
 Docs examined: 354
-Docs returned: 
+Docs returned: 354
 
 === Завдання 2. BEFORE index ===
 Stage: COLLSCAN

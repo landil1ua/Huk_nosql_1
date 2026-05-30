@@ -28,7 +28,7 @@ const beforeIndex = db.tracks.find({
 
 print("Stage:", beforeIndex.queryPlanner.winningPlan.stage);
 print("Docs examined:", beforeIndex.executionStats.totalDocsExamined);
-print("Docs returned:", beforeIndex.executionStats.totalDocsReturned);
+print("Docs returned:", beforeIndex.executionStats.nReturned);
 
 // --- Створюємо індекс ---
 db.tracks.createIndex({
@@ -45,7 +45,7 @@ const afterIndex = db.tracks.find({
 
 print("Stage:", afterIndex.queryPlanner.winningPlan.stage);
 print("Docs examined:", afterIndex.executionStats.totalDocsExamined);
-print("Docs returned:", afterIndex.executionStats.totalDocsReturned);
+print("Docs returned:", afterIndex.executionStats.nReturned);
 
 // Завдання 2.  Індекс для інших полів
 // Спочатку видаляємо індекс якщо він вже існує

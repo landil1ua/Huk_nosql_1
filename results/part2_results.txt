@@ -126,13 +126,13 @@
   {
     tracks_cnt: 3,
     min_popularity: 80,
-    artist_name: 'Declan McKenna',
+    artist_name: 'Joy Again',
     avg_popularity: 80
   },
   {
     tracks_cnt: 3,
     min_popularity: 80,
-    artist_name: 'Joy Again',
+    artist_name: 'Declan McKenna',
     avg_popularity: 80
   },
   {
@@ -164,177 +164,177 @@
 === Завдання 3. Нетипові треки ===
 [
   {
-    avg_tempo: 117,
-    genre: 'pop-film',
-    outlier_threshold: 173.9,
+    avg_tempo: 124,
+    genre: 'goth',
+    outlier_threshold: 179.5,
     outlier_tracks: [
       {
-        id: ObjectId('6a1b4eec492958e31c302c5e'),
-        track_name: 'Mann Mera',
+        id: ObjectId('6a1b4ee7492958e31c2f9411'),
+        track_name: 'Mitt hjärta är ett jordskred',
         artists: [
-          'Gajendra Verma'
+          'Håkan Hellström'
         ],
-        popularity: 74,
-        tempo: 191.827
+        popularity: 40,
+        tempo: 182.885
       },
       {
-        id: ObjectId('6a1b4eec492958e31c302c8a'),
-        track_name: 'Mere Liye Tum Kaafi Ho (From "Shubh Mangal Zyada Saavdhan")',
+        id: ObjectId('6a1b4ee7492958e31c2f946d'),
+        track_name: 'Angels',
         artists: [
-          'Ayushmann Khurrana',
-          'Tanishk-Vayu'
+          'Within Temptation'
         ],
-        popularity: 72,
-        tempo: 177.867
+        popularity: 56,
+        tempo: 182.032
       },
       {
-        id: ObjectId('6a1b4eec492958e31c302c8d'),
-        track_name: 'Mallipoo',
+        id: ObjectId('6a1b4ee7492958e31c2f9470'),
+        track_name: 'En gång en vän',
         artists: [
-          'A.R. Rahman',
-          'Madhushree'
+          'Arvid Nero'
         ],
-        popularity: 79,
-        tempo: 175.589
+        popularity: 30,
+        tempo: 196.042
       }
     ]
   },
   {
-    avg_tempo: 128,
-    genre: 'metal',
-    outlier_threshold: 187.9,
+    avg_tempo: 127,
+    genre: 'sertanejo',
+    outlier_threshold: 188.4,
     outlier_tracks: [
       {
-        id: ObjectId('6a1b4eeb492958e31c300978'),
-        track_name: 'Bring Me To Life',
+        id: ObjectId('6a1b4eed492958e31c306edf'),
+        track_name: 'Dominamo Memo',
         artists: [
-          'Evanescence'
-        ],
-        popularity: 0,
-        tempo: 189.985
-      },
-      {
-        id: ObjectId('6a1b4eeb492958e31c30097d'),
-        track_name: 'Bring Me To Life',
-        artists: [
-          'Evanescence'
-        ],
-        popularity: 2,
-        tempo: 189.985
-      },
-      {
-        id: ObjectId('6a1b4eeb492958e31c300980'),
-        track_name: 'Bring Me To Life',
-        artists: [
-          'Evanescence'
-        ],
-        popularity: 0,
-        tempo: 189.985
-      }
-    ]
-  },
-  {
-    avg_tempo: 121,
-    genre: 'deep-house',
-    outlier_threshold: 144.7,
-    outlier_tracks: [
-      {
-        id: ObjectId('6a1b4ee4492958e31c2f4dbc'),
-        track_name: 'Always',
-        artists: [
-          'The Him'
-        ],
-        popularity: 61,
-        tempo: 173.846
-      },
-      {
-        id: ObjectId('6a1b4ee4492958e31c2f4dbe'),
-        track_name: 'Seve - Slow Version',
-        artists: [
-          'Tez Cadey'
-        ],
-        popularity: 53,
-        tempo: 152.634
-      },
-      {
-        id: ObjectId('6a1b4ee5492958e31c2f4e34'),
-        track_name: 'Stay Yours',
-        artists: [
-          'Deep Chills',
-          'Tilsen'
+          'Bruno & Barretto'
         ],
         popularity: 55,
-        tempo: 200.116
+        tempo: 194.615
+      },
+      {
+        id: ObjectId('6a1b4eed492958e31c306f74'),
+        track_name: '3 Horas De Motel - Ao Vivo',
+        artists: [
+          'Henrique & Juliano'
+        ],
+        popularity: 52,
+        tempo: 191.954
+      },
+      {
+        id: ObjectId('6a1b4eed492958e31c306fe9'),
+        track_name: 'Menos É Mais - Ao Vivo',
+        artists: [
+          'Henrique & Juliano'
+        ],
+        popularity: 50,
+        tempo: 195.941
       }
     ]
   },
   {
-    avg_tempo: 134,
-    genre: 'dubstep',
-    outlier_threshold: 189.7,
+    avg_tempo: 114,
+    genre: 'show-tunes',
+    outlier_threshold: 176.2,
     outlier_tracks: [
       {
-        id: ObjectId('6a1b4ee5492958e31c2f6532'),
-        track_name: 'Shelter',
+        id: ObjectId('6a1b4eed492958e31c3072b8'),
+        track_name: 'This Is Me',
         artists: [
-          'Porter Robinson',
-          'Madeon'
+          'Keala Settle',
+          'The Greatest Showman Ensemble'
+        ],
+        popularity: 74,
+        tempo: 191.702
+      },
+      {
+        id: ObjectId('6a1b4eed492958e31c3072f8'),
+        track_name: 'This Is Me',
+        artists: [
+          'Keala Settle',
+          'The Greatest Showman Ensemble'
         ],
         popularity: 66,
-        tempo: 199.526
+        tempo: 191.702
       },
       {
-        id: ObjectId('6a1b4ee5492958e31c2f6595'),
-        track_name: 'Millennia',
+        id: ObjectId('6a1b4eed492958e31c30737c'),
+        track_name: 'One Last Time',
         artists: [
-          'Pixel Terror'
+          'Christopher Jackson',
+          'Lin-Manuel Miranda',
+          'Original Broadway Cast of Hamilton'
         ],
-        popularity: 53,
-        tempo: 200.05
-      },
-      {
-        id: ObjectId('6a1b4ee5492958e31c2f6659'),
-        track_name: 'Crumble',
-        artists: [
-          'Fairlane',
-          'TRØVES'
-        ],
-        popularity: 38,
-        tempo: 199.913
+        popularity: 62,
+        tempo: 176.989
       }
     ]
   },
   {
-    avg_tempo: 129,
-    genre: 'grunge',
-    outlier_threshold: 190.4,
+    avg_tempo: 125,
+    genre: 'minimal-techno',
+    outlier_threshold: 143.8,
     outlier_tracks: [
       {
-        id: ObjectId('6a1b4ee7492958e31c2f9fd5'),
-        track_name: 'Heart-Shaped Box',
+        id: ObjectId('6a1b4eec492958e31c3011e0'),
+        track_name: 'Bye Bye Macadam',
         artists: [
-          'Nirvana'
+          'Rone'
         ],
-        popularity: 79,
-        tempo: 203.006
+        popularity: 48,
+        tempo: 190.028
       },
       {
-        id: ObjectId('6a1b4ee7492958e31c2fa011'),
-        track_name: 'Natural Born Killer',
+        id: ObjectId('6a1b4eec492958e31c301231'),
+        track_name: 'One Man Show',
         artists: [
-          'Highly Suspect'
+          'Marco Carola'
         ],
-        popularity: 5,
-        tempo: 194.876
+        popularity: 24,
+        tempo: 217.282
       },
       {
-        id: ObjectId('6a1b4ee7492958e31c2fa036'),
-        track_name: 'With You',
+        id: ObjectId('6a1b4eec492958e31c301285'),
+        track_name: 'Sparkle',
         artists: [
-          'Linkin Park'
+          'Worakls'
         ],
-        popularity: 64,
-        tempo: 196.921
+        popularity: 46,
+        tempo: 169.963
+      }
+    ]
+  },
+  {
+    avg_tempo: 119,
+    genre: 'sad',
+    outlier_threshold: 180.1,
+    outlier_tracks: [
+      {
+        id: ObjectId('6a1b4eed492958e31c306346'),
+        track_name: "Can't Love Myself",
+        artists: [
+          'Monty Datta',
+          'Mishaal'
+        ],
+        popularity: 68,
+        tempo: 181.032
+      },
+      {
+        id: ObjectId('6a1b4eed492958e31c306355'),
+        track_name: 'Falling Slowly',
+        artists: [
+          'Vwillz'
+        ],
+        popularity: 67,
+        tempo: 180.171
+      },
+      {
+        id: ObjectId('6a1b4eed492958e31c3063e1'),
+        track_name: 'Holding onto Nothing',
+        artists: [
+          'Snøw'
+        ],
+        popularity: 6,
+        tempo: 187.579
       }
     ]
   }
@@ -343,40 +343,41 @@
 === Завдання 4. Треки для фонової роботи ===
 [
   {
-    track_name: 'And I Love Her',
+    track_name: 'Tutty Frutty',
     explicit: false,
     audio_features: {
-      loudness: -15.317,
-      speechiness: 0.0331,
-      instrumentalness: 0.833
+      loudness: -12.895,
+      speechiness: 0.0298,
+      instrumentalness: 0.501
     },
     artists: [
-      'Kurt Cobain'
+      'Enrique Guzman',
+      'Los Teen Tops'
     ]
   },
   {
-    track_name: 'Chi Mai',
+    track_name: 'Under the Sea',
     explicit: false,
     audio_features: {
-      loudness: -14.007,
-      speechiness: 0.059,
-      instrumentalness: 0.961
+      loudness: -13.175,
+      speechiness: 0.0356,
+      instrumentalness: 0.501
     },
     artists: [
-      'Joseph Sullinger'
+      'Serph'
     ]
   },
   {
-    track_name: 'Mujer con Abanico',
+    track_name: 'Fairytale',
     explicit: false,
     audio_features: {
-      loudness: -12.049,
-      speechiness: 0.061,
-      instrumentalness: 0.905
+      loudness: -18.769,
+      speechiness: 0.0362,
+      instrumentalness: 0.501
     },
     artists: [
-      'Agustín Amigó',
-      'Nylonwings'
+      'Harry Gregson-Williams',
+      'John Powell'
     ]
   }
 ]
