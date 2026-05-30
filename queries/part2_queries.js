@@ -8,7 +8,6 @@ printjson(
       "audio_features.energy": { $gt: 0.7 },
       "duration_ms": { $gte: 180000, $lte: 300000 },
          "audio_features.danceability": { $gt: 0.7 },
-         "audio_features.energy": { $gt: 0.7 },
     },
     {
         track_name: 1,
