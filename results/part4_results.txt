@@ -1,7 +1,6 @@
-Index not found, skipping drop...
 === Завдання 1. BEFORE index ===
-Stage: FETCH
-Docs examined: 354
+Stage: SORT
+Docs examined: 113999
 Docs returned: 
 
 === Завдання 1. AFTER index ===
