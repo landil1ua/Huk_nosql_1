@@ -77,3 +77,54 @@ executionStats.totalDocsExamined — з індексом це число бли�
 > **Відповідь:**
 > Запит без проєкції — не покривний. Stage FETCH, docs examined 317 — MongoDB знайшов документи через індекс, але потім пішов на диск за повним документом, бо не знав які поля потрібні.
 Запит з явною проєкцією { track_genre: 1, popularity: 1, _id: 0 } — покривний. Stage PROJECTION_COVERED, docs examined 0. Усі поля фільтру і проєкції є в індексі { track_genre, popularity, audio_features.danceability }, тому MongoDB отримав відповідь повністю з індексу, не звертаючись до жодного документа колекції. Ключова умова covered query: поля фільтру + поля проєкції ⊆ поля індексу, і _id виключений явно.
+
+## Налаштування оточення
+
+### Вимоги
+- Python 3.x
+- mongosh
+- Акаунт MongoDB Atlas (безкоштовний тір M0)
+
+### Встановлення
+
+1. Клонувати репозиторій:
+```bash
+git clone https://github.com/landil1ua/Huk_nosql_1.git
+```
+
+2. Створити та активувати віртуальне середовище:
+```bash
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+
+3. Встановити залежності:
+```bash
+pip install -r requirements.txt
+```
+
+4. Налаштувати підключення до MongoDB Atlas:
+- Створити файл `.env` у корені проекту з наступним вмістом:
+```MONGO_URI=mongodb+srv://<user>:<password>@<cluster>.mongodb.net/
+```
+
+5. Покласти датасет у папку `data/`:
+- Завантажити [Spotify Tracks Dataset](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset) з Kaggle
+- Зберегти як `data/dataset.csv`
+
+### Запуск
+
+```bash
+# Частина 1 — завантаження та трансформація
+python scripts/01_load_data.py
+mongosh "URI" --file scripts/02_transform.js
+
+# Частина 2 — запити
+mongosh "URI" --file queries/part2_queries.js
+
+# Частина 3 — аналітика
+mongosh "URI" --file queries/part3_aggregations.js
+
+# Частина 4 — індекси
+mongosh "URI" --file queries/part4_indexes.js
+```
